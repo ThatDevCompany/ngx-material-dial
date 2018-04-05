@@ -1,7 +1,13 @@
 {
 	"name": "ngx-material-dial",
-	"version": "0.0.1",
 	"description": "A material design dial component for Angular X",
+	"version": "0.0.1",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ThatDevCompany/ngx-material-dial.git"
+	},
+	"contributors": ["Stephen James <steve@thatdevcompany.com> (http://thatdevcompany.com)"],
 	"dependencies": {
 		"@angular/cdk": "5.2.2",
 		"@angular/core": "5.2.6",
@@ -11,5 +17,7 @@
 		"rxjs": "5.5.6",
 		"zone.js": "0.8.14"
 	},
-	"devDependencies": {}
+	"devDependencies": {
+	
+	}
 }
