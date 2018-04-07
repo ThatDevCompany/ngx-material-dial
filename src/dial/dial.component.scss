@@ -1,0 +1,32 @@
+@import "../../../../client/css/tdc-theme";
+
+:host {
+  display: block;
+}
+
+:host>div {
+  width: 100%;
+  height: 100%;
+}
+
+div[outer] {
+  border: 1px solid map-get($tdc-grey, 700);
+  background-color: map-get($tdc-grey, 100);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  pointer-events: none;
+  transition: transform 0.3s;
+}
+
+div[inner] {
+  border: 1px solid map-get($tdc-grey, 700);
+  background-color: map-get($tdc-grey, 200);
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  pointer-events: none;
+  top: 10%; left: 40%;
+}
