@@ -1,8 +1,5 @@
-.DS_Store
-
+.DS_STORE
+coverage
 node_modules
-
-build
-dist
-
-npm-debug.log
+src/*.js
+src/**/*.js

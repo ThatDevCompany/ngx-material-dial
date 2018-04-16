@@ -22,7 +22,7 @@ export class NgxMaterialDialComponent implements OnInit {
 	}
 
 	calcAngle(x: number, y: number) {
-		return Math.round(Math.atan2(y - 50, x - 50) * (180/Math.PI)) + 90;
+		return Math.round(Math.atan2(y - 50, x - 50) * (180 / Math.PI)) + 90;
 	}
 
 	redraw() {
