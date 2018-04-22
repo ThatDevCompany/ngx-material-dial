@@ -3,7 +3,7 @@ import {Component, Input, ViewChild, ElementRef, Output, EventEmitter, OnInit} f
 @Component({
 	selector: 'ngx-material-dial',
 	templateUrl: './dial.component.html',
-	styleUrls: ['./dial.component.scss']
+	styleUrls: ['./dial.component.css']
 })
 export class NgxMaterialDialComponent implements OnInit {
 	@ViewChild('rootElement')
@@ -15,7 +15,7 @@ export class NgxMaterialDialComponent implements OnInit {
 	@Output()
 	valueChange = new EventEmitter<number>();
 
-	onClick(e) {
+	onClick(e: MouseEvent) {
 		this.value = this.calcAngle(e.offsetX, e.offsetY);
 		this.valueChange.emit(this.value);
 		this.redraw();

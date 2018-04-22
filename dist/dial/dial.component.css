@@ -1,5 +1,3 @@
-@import "../../../../client/css/tdc-theme";
-
 :host {
   display: block;
 }
@@ -10,19 +8,19 @@
 }
 
 div[outer] {
-  border: 1px solid map-get($tdc-grey, 700);
-  background-color: map-get($tdc-grey, 100);
+  border: 1px solid #616161;
+  background-color: #DDDDDD;
   border-radius: 50%;
-  width: 100%;
-  height: 100%;
   position: relative;
   pointer-events: none;
   transition: transform 0.3s;
+  min-width: 100px;
+  min-height: 100px;
 }
 
 div[inner] {
-  border: 1px solid map-get($tdc-grey, 700);
-  background-color: map-get($tdc-grey, 200);
+  border: 1px solid #616161;
+  background-color: #AAAAAA;
   border-radius: 50%;
   width: 20%;
   height: 20%;
