@@ -1,43 +1,44 @@
 {
-  "name": "ngx-material-dial",
-  "description": "A form control for selecting direction",
-  "version": "0.0.45",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ThatDevCompany/ngx-material-dial.git"
-  },
-  "contributors": [
-    "Stephen James <steve@thatdevcompany.com> (http://thatdevcompany.com)"
-  ],
-  "scripts": {
-    "test": "istanbul cover --config .istanbul.yml --include-all-sources ./node_modules/jasmine/bin/jasmine.js src/*[sS]pec.js src/**/*[sS]pec.js",
-    "lint": "tslint -p tsconfig.json",
-    "build": "node tools/build.js",
-    "publish": "npm publish dist/"
-  },
-  "dependencies": {
-    "@angular/core": "^5.2.0"
-  },
-  "devDependencies": {
-    "@angular/compiler": "^5.2.10",
-    "@angular/compiler-cli": "^5.2.10",
-    "@types/jasmine": "~2.8.3",
-    "@types/jasminewd2": "~2.0.2",
-    "@types/node": "~6.0.60",
-    "del": "^3.0.0",
-    "istanbul": "^0.4.5",
-    "istanbul-instrumenter-loader": "3.0.0",
-    "jasmine-core": "~2.8.0",
-    "jasmine-spec-reporter": "~4.2.1",
-    "node-sass": "^4.8.3",
-    "rollup": "^0.57.1",
-    "rollup-plugin-angular": "^0.5.3",
-    "rollup-plugin-commonjs": "^9.1.0",
-    "rollup-plugin-node-resolve": "^3.3.0",
-    "rollup-plugin-typescript": "^0.8.1",
-    "tslint": "~5.9.1",
-    "typescript": "^2.8.1",
-    "uglify-js": "^3.3.21"
-  }
+    "name": "ngx-material-dial",
+    "description": "A form control for selecting direction",
+    "version": "0.0.46",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ThatDevCompany/ngx-material-dial.git"
+    },
+    "contributors": [
+        "Stephen James <steve@thatdevcompany.com> (http://thatdevcompany.com)"
+    ],
+    "scripts": {
+        "lint": "node scripts/lint.js",
+        "build": "node scripts/build.js",
+        "test": "npm run build && node scripts/test.js",
+        "publish": "node scripts/publish.js"
+    },
+    "dependencies": {
+        "@angular/core": "^5.2.0"
+    },
+    "devDependencies": {
+        "@angular/compiler": "^5.2.10",
+        "@angular/compiler-cli": "^5.2.10",
+        "@types/jasmine": "~2.8.3",
+        "@types/jasminewd2": "~2.0.2",
+        "@types/node": "~6.0.60",
+        "del": "^3.0.0",
+        "istanbul": "^0.4.5",
+        "istanbul-instrumenter-loader": "3.0.0",
+        "jasmine-core": "~2.8.0",
+        "jasmine-spec-reporter": "~4.2.1",
+        "node-sass": "^4.8.3",
+        "rollup": "^0.57.1",
+        "rollup-plugin-angular": "^0.5.3",
+        "rollup-plugin-commonjs": "^9.1.0",
+        "rollup-plugin-node-resolve": "^3.3.0",
+        "rollup-plugin-typescript": "^0.8.1",
+        "tslint": "~5.9.1",
+        "typescript": "^2.8.1",
+        "uglify-js": "^3.3.21",
+        "that-build-library": "^0.0.4"
+    }
 }
