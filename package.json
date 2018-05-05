@@ -14,8 +14,8 @@
         "lint": "node scripts/lint.js",
         "build:scripts": "tsc -p scripts/tsconfig.json",
         "build:tests": "tsc -p src/tsconfig.json",
-        "build": "npm run build:tests && node scripts/build.js",
-        "test": "node scripts/test.js",
+        "build": "node scripts/build.js",
+        "test": "npm run build:tests && node scripts/test.js",
         "publish": "node scripts/publish.js"
     },
     "dependencies": {
