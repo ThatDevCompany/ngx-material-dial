@@ -3,12 +3,12 @@
 	"compilerOptions": {
 		"rootDir": "./",
 		"target": "es5",
-		"sourceMap": false,
+		"inlineSourceMap": true,
+		"inlineSources": true,
 		"moduleResolution": "node",
 		"experimentalDecorators": true,
 		"types": [
 			"jasmine",
-			"jasminewd2",
 			"node"
 		],
 		"typeRoots": [
