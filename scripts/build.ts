@@ -5,6 +5,10 @@ BuildUtils
 	.flatMap(() => BuildUtils.exec('Transpiling', 'ngc', [
 		'src/index'
 	]))
+	.flatMap(() => BuildUtils.exec('Inlining', 'ng-asset-inline', [
+		'dist/dial',
+		'src/dial'
+	]))
 	.flatMap(() => BuildUtils.exec('Rolling Up', 'rollup', [
 		'-c', 'scripts/build.rollup.config.js'
 	]))
@@ -18,6 +22,4 @@ BuildUtils
 	]))
 	.flatMap(() => BuildUtils.copy('README.md', 'dist'))
 	.flatMap(() => BuildUtils.copy('LICENSE', 'dist'))
-	.flatMap(() => BuildUtils.copy('src/dial/dial.component.html', 'dist/dial'))
-	.flatMap(() => BuildUtils.copy('src/dial/dial.component.css', 'dist/dial'))
 	.subscribe();
