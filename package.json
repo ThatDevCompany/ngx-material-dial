@@ -1,7 +1,7 @@
 {
     "name": "ngx-material-dial",
     "description": "A form control for selecting direction",
-    "version": "0.0.50",
+    "version": "0.0.51",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -32,7 +32,7 @@
         "nyc": "^11.7.3",
         "tslint": "^5.10.0",
         "typescript": "2.7.2",
-        "that-dev-library": "^0.1.6",
+        "that-dev-library": "^0.1.7",
         "rollup": "^0.58.2",
         "rollup-plugin-angular": "^0.5.3",
         "rollup-plugin-commonjs": "^9.1.3",
