@@ -1,13 +1,8 @@
-import {NgModule} from '@angular/core';
-import {NgxMaterialDialComponent} from './dial.component';
+import { NgModule } from '@angular/core'
+import { NgxMaterialDialComponent } from './dial.component'
 
 @NgModule({
-	declarations: [
-		NgxMaterialDialComponent
-	],
-	exports: [
-		NgxMaterialDialComponent
-	]
+	declarations: [NgxMaterialDialComponent],
+	exports: [NgxMaterialDialComponent]
 })
-export class NgxMaterialDialModule {
-}
+export class NgxMaterialDialModule {}

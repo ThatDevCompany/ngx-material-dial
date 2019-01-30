@@ -1,12 +1,45 @@
-.DS_STORE
-.idea
+# --------------------
+# OSX Files
+# --------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
 
-coverage
-dist
-node_modules
+# --------------------
+# Node Files
+# --------------------
+.nodemonignore
+npm-debug.log
+node_modules/
 
-scripts/*.js
-scripts/**/*.js
+# --------------------
+# App Files
+# --------------------
+dist/
+coverage/
 
-src/*.js
-src/**/*.js
+# --------------------
+# IntelliJ Files
+# --------------------
+*.iml
+*.ipr
+*.iws
+/out/
+.idea/
+.idea_modules/
+
+# --------------------
+# Vim Files
+# --------------------
+*.swp
+*.vim
+
+# --------------------
+# VSCode Files
+# --------------------
+*.vscode
+

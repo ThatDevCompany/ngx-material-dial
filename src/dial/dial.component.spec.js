@@ -1,0 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var dial_component_1 = require("./dial.component");
+describe('NgxMaterialDialComponent', function () {
+    it('should be a function', function () {
+        expect(typeof dial_component_1.NgxMaterialDialComponent).toBe('function');
+    });
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGlhbC5jb21wb25lbnQuc3BlYy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImRpYWwuY29tcG9uZW50LnNwZWMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxtREFBMkQ7QUFFM0QsUUFBUSxDQUFDLDBCQUEwQixFQUFFO0lBQ3BDLEVBQUUsQ0FBQyxzQkFBc0IsRUFBRTtRQUMxQixNQUFNLENBQUMsT0FBTyx5Q0FBd0IsQ0FBQyxDQUFDLElBQUksQ0FBQyxVQUFVLENBQUMsQ0FBQTtJQUN6RCxDQUFDLENBQUMsQ0FBQTtBQUNILENBQUMsQ0FBQyxDQUFBIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmd4TWF0ZXJpYWxEaWFsQ29tcG9uZW50IH0gZnJvbSAnLi9kaWFsLmNvbXBvbmVudCdcblxuZGVzY3JpYmUoJ05neE1hdGVyaWFsRGlhbENvbXBvbmVudCcsICgpID0+IHtcblx0aXQoJ3Nob3VsZCBiZSBhIGZ1bmN0aW9uJywgKCkgPT4ge1xuXHRcdGV4cGVjdCh0eXBlb2YgTmd4TWF0ZXJpYWxEaWFsQ29tcG9uZW50KS50b0JlKCdmdW5jdGlvbicpXG5cdH0pXG59KVxuIl19
