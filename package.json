@@ -17,10 +17,13 @@
         "publish": "node admin/scripts/publish.js"
     },
     "dependencies": {
-        "@angular/core": "7.2.3",
         "that-build-library": "1.0.2"
     },
+    "peerDependencies": {
+        "@angular/core": "^7.0.0"
+    },
     "devDependencies": {
+        "@angular/core": "7.2.3",
         "@angular/compiler": "7.2.3",
         "@angular/compiler-cli": "7.2.3",
         "@types/jasmine": "2.8.7",
