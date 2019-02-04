@@ -17,7 +17,8 @@
         "publish": "node admin/scripts/publish.js"
     },
     "dependencies": {
-        "@angular/core": "7.2.3"
+        "@angular/core": "7.2.3",
+        "that-build-library": "1.0.2"
     },
     "devDependencies": {
         "@angular/compiler": "7.2.3",
